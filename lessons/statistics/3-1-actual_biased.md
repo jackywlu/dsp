@@ -48,14 +48,26 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 thinkplot.Pmf(pmf)
 thinkplot.Show(xlabel='number of kids', ylabel='PMF')
 
+```
+![image1](https://github.com/jackywlu/dsp/blob/master/lessons/statistics/Screen%20Shot%202020-06-12%20at%2012.11.03%20PM.png)
+
+```
 biased = BiasPmf(pmf, label='biased')
 thinkplot.Pmf(biased)
 thinkplot.Show(xlabel='biased number of kids', ylabel='PMF')
+```
 
+![image2](https://github.com/jackywlu/dsp/blob/master/lessons/statistics/Screen%20Shot%202020-06-12%20at%2012.11.08%20PM.png)
+
+```
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
+```
 
+![image3](https://github.com/jackywlu/dsp/blob/master/lessons/statistics/Screen%20Shot%202020-06-12%20at%2012.11.12%20PM.png)
+
+```
 pmf.Mean(), biased.Mean()
 
 Output: (1.024205155043831, 2.403679100664282)
