@@ -19,10 +19,14 @@ thinkplot.Config(xlabel='Numpy random variable', ylabel='PMF')
 ```
 ![image1](https://github.com/jackywlu/dsp/blob/master/lessons/statistics/Exercise%204-2%20Image%201.png)
 
+There are so many different x-values that aren't put into bins, so it's extremely difficult to read the PMF. It looks like the distribution is uniform (all the x-values have around a 0.001 chance of appearing), but that's because there are probably no values that appear more than once. 
+
 ```
 cdf = thinkstats2.Cdf(random_values)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Numpy random variable', ylabel='CDF')
 ```
+
+The distribution is uniform. The CDF is a pretty straight line from 0 to 1, which indicates that there aren't any numbers that are much higher or lower to appear than other numbers. For example, it looks like 20% of the sample (numbers from 0 to 0.2) have a CDF around 0.2.
 
 ![image2](https://github.com/jackywlu/dsp/blob/master/lessons/statistics/Exercise%204-2%20Image%202.png)
