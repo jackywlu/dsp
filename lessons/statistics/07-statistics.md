@@ -86,14 +86,29 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Jacky's answer:
+There are 2 possibilities. One is that Elvis was an identical twin. One is that Elvis was a fraternal twin.
+Both probabilities should add to 1.
+
+The entire twin population is 1/125 + 1/300 = 12/1500 + 5/1500 = 17/1500. Initially, I thought it was 5/1500 divided by 17/1500 (5/17).
+
+However, I also need to keep in mind that Elvis had a twin brother. This changes the odds. 
+The probability that he is an identical twin and both are boys is 1/2 * 1/300. Identical twins can be boy-boy or girl-girl.
+The probability that he is an fraternal twin and both are boys is 1/4 * 1/125. Fraternal twins can be boy-boy, boy-girl, girl-boy, and girl-girl.
+
+The answer is 1/3 * 1/300 all divided by (1/3 * 1/300 + 1/4 * 1/125). The answer is 5/11.
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+With frequentist statistics, you have a model of a particular phenomenon. You make observations then and there and use them as inputs into the model to get an output. The assumption is that your observation is a sample from that model or distribution. Past observations don't affect your current observation.
+
+With Bayesian statistics, you also have a model of a particular phenomenon. Additionally, you have access to the history of that phenomenon. Your observation is based on the likelihood of previous observations and how much you trust that previous observations adhere to your model.
+
+Example, flipping a coin. A frequentist would take the model that heads will land 50% of the time and tails will land 50% of the time because that's the outcome after a larger number of obsrvations are made. A bayesian statistician would look at each outcome of the flip and adjust their model according to their observations.
 
 ---
 
