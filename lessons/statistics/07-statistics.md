@@ -90,11 +90,16 @@ Jacky's answer:
 There are 2 possibilities. One is that Elvis was an identical twin. One is that Elvis was a fraternal twin.
 Both probabilities should add to 1.
 
-The entire twin population is 1/125 + 1/300 = 12/1500 + 5/1500 = 17/1500. Initially, I thought it was 5/1500 divided by 17/1500 (5/17).
+The entire twin population is 1/125 + 1/300 = 12/1500 + 5/1500 = 17/1500. 
+Initially, I thought it was 5/1500 divided by 17/1500 (5/17).
 
 However, I also need to keep in mind that Elvis had a twin brother. This changes the odds. 
-The probability that he is an identical twin and both are boys is 1/2 * 1/300. Identical twins can be boy-boy or girl-girl.
-The probability that he is an fraternal twin and both are boys is 1/4 * 1/125. Fraternal twins can be boy-boy, boy-girl, girl-boy, and girl-girl.
+
+The probability that he is an identical twin and both are boys is 1/2 * 1/300. 
+Identical twins can be boy-boy or girl-girl.
+
+The probability that he is an fraternal twin and both are boys is 1/4 * 1/125. 
+Fraternal twins can be boy-boy, boy-girl, girl-boy, and girl-girl.
 
 The answer is 1/3 * 1/300 all divided by (1/3 * 1/300 + 1/4 * 1/125). The answer is 5/11.
 
@@ -104,6 +109,7 @@ The answer is 1/3 * 1/300 all divided by (1/3 * 1/300 + 1/4 * 1/125). The answer
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
+Jacky's answer:
 With frequentist statistics, you have a model of a particular phenomenon. You make observations then and there and use them as inputs into the model to get an output. The assumption is that your observation is a sample from that model or distribution. Past observations don't affect your current observation.
 
 With Bayesian statistics, you also have a model of a particular phenomenon. Additionally, you have access to the history of that phenomenon. Your observation is based on the likelihood of previous observations and how much you trust that previous observations adhere to your model.
