@@ -40,6 +40,6 @@ Output: -0.088672927072602
 ```
 Firstborne babies tend to be slightly lighter (7.2 lb) than babies born afterwards (7.3 lb). The difference between the two groups is 0.088 pooled standard deviations.
 
-The mean for firstborne babies pregnancy length is 38.6 weeks while babies born afterwards have mean pregnancy length 38.5 weeks. The Cohen effect size is 0.078 pooled standard deviations.
+(information given by ThinkStats2): The mean for firstborne babies pregnancy length is 38.6 weeks while babies born afterwards have mean pregnancy length 38.5 weeks. The Cohen effect size is 0.078 pooled standard deviations.
 
 The Cohen effect size for weight for firstborns vs. others is slightly higher than the effect size for pregnancy length.
